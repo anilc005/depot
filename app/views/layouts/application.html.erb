@@ -18,14 +18,12 @@
         <li><a href="http://www..../faq">Questions</a></li> 
         <li><a href="http://www..../news">News</a></li> 
         <li><a href="http://www..../contact">Contact</a></li>
+        <li><a><%= Time.now.strftime('%H : %M : %S') %></a></li>
       </ul>
     </div>
     <div id="main"> 
       <%= yield %>
     </div>
   </div>
-</body>
-</html>
-<%= yield %> 
 </body>
 </html>
